@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.greenriver.ontopgames.magneticfieldtest.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/magX"
+        android:text="Hello World!"
+        android:layout_alignParentTop="true"
+        android:textSize="40dp"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/magY"
+        android:text="Hello World!"
+
+        android:layout_below="@+id/magX"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/magZ"
+        android:text="Hello World!"
+
+        android:layout_below="@+id/magY"
+        android:textSize="40dp"
+         />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/magmag"
+            android:text="Hello World!"
+
+            android:layout_below="@+id/magZ"
+            android:textSize="40dp"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rotX"
+            android:text="Hello World!"
+            android:layout_below="@+id/magmag"
+            android:textSize="40dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rotY"
+            android:text="Hello World!"
+
+            android:layout_below="@+id/rotX"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rotZ"
+            android:text="Hello World!"
+
+            android:layout_below="@+id/rotY"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="40dp"/>
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/location"
+            android:text="Hello World!"
+
+            android:layout_below="@+id/rotZ"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />-->
+
+        <!--<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button2"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="goToGraph"/>-->
+    </RelativeLayout>
+
+
+</RelativeLayout>
